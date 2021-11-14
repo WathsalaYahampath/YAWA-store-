@@ -20,7 +20,7 @@
     <div class="container">
         <div class= "navbar">
             <div class="logo">
-                <img src="img/logo.png" width="120" alt="">
+                <img src="img/logo.png" width="120" alt=""onclick="show_alert('YAWA Store')">
              </div>
                 <nav>
                     <ul>
@@ -69,7 +69,7 @@
         <div class="row">
             
             <div class="col-4">
-                <a href=""><img src="img/clothes .jpg"width="250"></a>
+                <a href=""><img src="img/clothes .jpg"width="250"onclick="show_alert('Clothes')"></a>
                 <h3><a href="">Clothes</h3></a>
                 <p2><a href="">All mens garments</p2></a>
                 <div class="add to cart">
@@ -77,17 +77,17 @@
                 </div>
             </div>
             <div class="col-4">
-                <a href=""><img src="img/watches.jpg"width="250"></a>
+                <a href=""><img src="img/watches.jpg"width="250"onclick="show_alert('Watches')"></a>
                 <h4><a href="">Watches</h4></a>
                 <p3><a href="">All mens watches and bands</p3></a>
             </div>
             <div class="col-4">
-                <a href=""><img src="img/shouse.jpg"width="250"></a>
-                <h5><a href="">shouse</h5></a>
+                <a href=""><img src="img/shouse.jpg"width="250"onclick="show_alert('Shouse')"></a>
+                <h5><a href="">Shouse</h5></a>
                 <p4><a href="">All mens foot wears</p4></a>
             </div>
             <div class="col-4">
-                <a href=""> <img src="img/others.jpg"width="250"></a>
+                <a href=""> <img src="img/others.jpg"width="250"onclick="show_alert('Others-Caps,perfumes...')"></a>
                 <h6><a href="">Others</h6></a>
                 <p5><a href="">Caps,perfumes...</p5></a>
                 
@@ -99,18 +99,18 @@
         <div class="row">
             
             <div class="col-4">
-                <a href=""><img src="img/hennessy .jpg"width="250"></a>
+                <a href=""><img src="img/hennessy .jpg"width="250"onclick="show_alert('Hennessy')"></a>
                 <h3><a href="">Hennessy</h3></a>
                 <p2><a href="">Whisky & Wine</p2></a>
                
             </div>
             <div class="col-4">
-                <a href=""> <img src="img/bacardi.jpg"width="250"></a>
+                <a href=""> <img src="img/bacardi.jpg"width="250"onclick="show_alert('Bacardi')"></a>
                 <h4><a href=""> Bacardi</h4></a>
                 <p3><a href="">Rum</p3></a>
             </div>
             <div class="col-4">
-                <a href=""><img src="img/sigarates.jpg"width="250"></a>
+                <a href=""><img src="img/sigarates.jpg"width="250"onclick="show_alert('cigarette and Weeds')"></a>
                 <h5><a href="">Cigarette</h5></a>
                 <p4><a href="">cigarette and Weeds</p4></a>
             </div>
@@ -128,7 +128,7 @@
         <div class="Small-containeer">
             <div class="row">
                 <div class="col-2">
-                    <img src="img/offer.jpg" class="offer-img">
+                    <img src="img/offer.jpg" class="offer-img"onclick="show_alert('Offers Here')">
                 </div>
                 <div class="col-2">
                     <p>YAWA Store offers up to 72% off on smartwatches and fitness tracke ..</p>
@@ -185,6 +185,11 @@
     </div>
 
 </div>
+<script>
+    function show_alert(name){
+        alert(name);
+    }
+</script>
     
 </body>
 </html>
